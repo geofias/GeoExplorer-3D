@@ -1,59 +1,100 @@
 # GeoExplorer 3D: An Interactive Guide to the World's Geological Wonders
 
 ## 🌐 Project Overview
-GeoExplorer 3D is a web-based interactive application built with **CesiumJS** and **React** that showcases some of the world’s most remarkable geological-natural sites. It serves as both an educational and inspirational platform for geoscientists, travelers, and enthusiasts interested in Earth's geological diversity.
-![Alt Text](geoexplorer/images/thumbnails/geoexplorer_app.png)
+GeoExplorer 3D is an interactive geospatial visualization platform that displays major geological sites around the world using a fully 3D virtual globe powered by CesiumJS.
+The project integrates structured GeoJSON data, rendering each site as an interactive point with geologic, geographic, and visiting information.
 
-## 🎯 Key Features
-- **3D Globe Visualization** using CesiumJS
-- **Sidebar with Filter by Country** to explore geological sites by region
-- **Interactive Site List** that triggers camera flights to selected locations
-- **Popups with Descriptive Information and Images** for each site
-- **Fully Responsive UI** suitable for desktops and tablets
+The purpose of this project is to provide an immersive scientific visualization tool that allows users to:
+- Explore geological sites in a realistic 3D environment.
+- View detailed geological descriptions and site metadata.
+- Interact with a navigable globe and fly to specific locations.
+- Present global geological information in an educational and intuitive way.
 
-## 🧪 Technologies Used
-- [React](https://reactjs.org/) (Frontend UI)
-- [CesiumJS](https://cesium.com/platform/cesiumjs/) (3D geospatial rendering)
-- GeoJSON (data format for geospatial features)
-- GitHub Pages (deployment)
+![Alt Text](./geoexplorer_app.png)
 
-## 🌐 Live Demo
-> 🔗 [View Live App](https://celadon-quokka-15feef.netlify.app/)
+## 🛰️ Key Technologies
+| Technology  | Role |
+|-------------|------|
+| **React**   | UI framework and component architecture |
+| **CesiumJS** | 3D globe rendering and geospatial engine |
+| **Resium**  | React bindings for CesiumJS |
+| **Vite**    | Dev server and bundler |
+| **GeoJSON** | Data format for site locations and attributes |
+| **Netlify** | Deployment and continuous delivery |
 
-## 📦 Deployment
-The app is deployed using **GitHub Pages**.
+## 🎯 Features
+✔️ 3D Earth Visualization
+Full CesiumJS globe with dynamic camera movement and smooth interaction.
 
-### 🔧 Build & Deploy
+✔️ GeoJSON Integration
+Loads and visualizes geological site data stored in:
+```bash
+public/data/geological_sites.geojson
+```
+
+✔️ Interactive Site Information
+Clicking on a point displays:
+- Site name
+- Country
+- Geological type
+- Rock type
+- Geological age
+- Detailed description
+- Best time to visit
+- Accessibility
+- Suggested activities
+
+✔️ Camera FlyTo
+Automatically animates the globe to center on the selected site.
+
+✔️ Works Offline (after build)
+Because CesiumJS assets are stored locally in public/cesium/.
+
+✔️ Deployed on Netlify
+Automatic deployment from GitHub.
+
+## 🛠️ Local Installation & Development
+1. Clone the repository
+```bash
+git clone https://github.com/<username>/GeoExplorer-3D.git
+cd GeoExplorer-3D
+```
+2. Install dependencies
 ```bash
 npm install
-npm run deploy
 ```
-Make sure `package.json` includes:
-```json
-"homepage": "https://your-username.github.io/geoexplorer-3d",
-```
-And the scripts:
-```json
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+3. Start development server
+```bash
+npm run dev
 ```
 
-## 📍 How It Works
-- When the app loads, it fetches the GeoJSON file from `/data/geological_sites.geojson`.
-- Sites are listed in the sidebar, with country filter support.
-- Selecting a site animates the camera to fly to the location.
-- A popup appears showing details and an image for each site.
+## 📦 Build for Production
+```bash
+npm run build
+```
+Output will be placed in:
+```bash
+/dist
+```
 
-## 🏕 Example Sites Included
-- Grand Canyon (USA)
-- Mount Everest (Nepal/China)
-- Uluru (Australia)
-- Mount Etna (Italy)
-- Salar de Uyuni (Bolivia)
-- And many more… (20 total; For now...)
+## 🌍 Deploying to Netlify
+1. Create a Netlify account
+2. Connect your GitHub repo
+3. Configure:
+
+| Setting  | Value |
+|----------|-------|
+| **Build command** | `npm run build` |
+| **Publish directory** | `dist` |
+
+Netlify automatically detects Vite + React projects.
+
+Your current deployment:
+> 🔗 [View Live App](https://celadon-quokka-15feef.netlify.app/)
 
 ## 👨‍💻 Author
-**Tamir Chong**    
+**Tamir Chong**
+**Geological Engineer • GIS Analyst**
 📫 [tamir-chong@hotmail.com](mailto:tamir-chong@hotmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/tamirchong/)  
 
