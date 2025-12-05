@@ -89,12 +89,14 @@ Output will be placed in:
 
 Netlify automatically detects Vite + React projects.
 
-Your current deployment:
+**Current deployment:**
 > 🔗 [View Live App](https://celadon-quokka-15feef.netlify.app/)
 
 ## 👨‍💻 Author
 **Tamir Chong**
+
 **Geological Engineer • GIS Analyst**
+
 📫 [tamir-chong@hotmail.com](mailto:tamir-chong@hotmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/tamirchong/)  
 
