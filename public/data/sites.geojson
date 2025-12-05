@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Canyon",
+        "country": "USA",
+        "geological_type": "Canyon",
+        "age": "5-6 million years",
+        "rock_type": "Sedimentary",
+        "description": "<h3>Grand Canyon</h3>\n    <p><strong>Country:</strong> USA<br/>\n    <strong>Geological Type:</strong> Canyon<br/>\n    <strong>Age:</strong> 5-6 million years<br/>\n    <strong>Rock Type:</strong> Sedimentary</p>\n    <p><strong>Best Time to Visit:</strong> March to May, September to November<br/>\n    <strong>Accessibility:</strong> Well-developed visitor facilities<br/>\n    <strong>Activities:</strong> Hiking, Helicopter tours, Rafting</p><br><img src=\"/assets/grand_canyon.jpg\" alt=\"Grand Canyon\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1129,
+          36.1069
+        ]
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Everest",
+        "country": "Nepal/China",
+        "geological_type": "Mountain",
+        "age": "About 60 million years",
+        "rock_type": "Metamorphic and Sedimentary",
+        "description": "<h3>Mount Everest</h3>\n    <p><strong>Country:</strong> Nepal/China<br/>\n    <strong>Geological Type:</strong> Mountain<br/>\n    <strong>Age:</strong> About 60 million years<br/>\n    <strong>Rock Type:</strong> Metamorphic and Sedimentary</p>\n    <p><strong>Best Time to Visit:</strong> April to May, September to October<br/>\n    <strong>Accessibility:</strong> Trekking routes and base camps<br/>\n    <strong>Activities:</strong> Trekking, Mountaineering</p><br><img src=\"/assets/mount_everest.jpg\" alt=\"Mount Everest\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.925,
+          27.9881
+        ]
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Giant's Causeway",
+        "country": "Northern Ireland",
+        "geological_type": "Volcanic Basalt Columns",
+        "age": "About 50-60 million years",
+        "rock_type": "Basalt",
+        "description": "<h3>Giant's Causeway</h3>\n    <p><strong>Country:</strong> Northern Ireland<br/>\n    <strong>Geological Type:</strong> Volcanic Basalt Columns<br/>\n    <strong>Age:</strong> About 50-60 million years<br/>\n    <strong>Rock Type:</strong> Basalt</p>\n    <p><strong>Best Time to Visit:</strong> May to September<br/>\n    <strong>Accessibility:</strong> Visitor center and coastal walking paths<br/>\n    <strong>Activities:</strong> Sightseeing, Photography, Walking</p><br><img src=\"/assets/giant's_causeway.jpg\" alt=\"Giant's Causeway\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5116,
+          55.2408
+        ]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uluru (Ayers Rock)",
+        "country": "Australia",
+        "geological_type": "Inselberg (isolated rock hill)",
+        "age": "550 million years",
+        "rock_type": "Arkose Sandstone",
+        "description": "<h3>Uluru (Ayers Rock)</h3>\n    <p><strong>Country:</strong> Australia<br/>\n    <strong>Geological Type:</strong> Inselberg (isolated rock hill)<br/>\n    <strong>Age:</strong> 550 million years<br/>\n    <strong>Rock Type:</strong> Arkose Sandstone</p>\n    <p><strong>Best Time to Visit:</strong> May to September<br/>\n    <strong>Accessibility:</strong> Accessible by road and nearby airport<br/>\n    <strong>Activities:</strong> Cultural tours, Hiking, Photography</p><br><img src=\"/assets/uluru_(ayers_rock).jpg\" alt=\"Uluru (Ayers Rock)\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.0369,
+          -25.3444
+        ]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trolltunga",
+        "country": "Norway",
+        "geological_type": "Glacial Rock Formation",
+        "age": "Quaternary",
+        "rock_type": "Gneiss",
+        "description": "<h3>Trolltunga</h3>\n    <p><strong>Country:</strong> Norway<br/>\n    <strong>Geological Type:</strong> Glacial Rock Formation<br/>\n    <strong>Age:</strong> Quaternary<br/>\n    <strong>Rock Type:</strong> Gneiss</p>\n    <p><strong>Best Time to Visit:</strong> June to September<br/>\n    <strong>Accessibility:</strong> Moderate (hiking trail)<br/>\n    <strong>Activities:</strong> Hiking, Photography</p><br><img src=\"/assets/trolltunga.jpg\" alt=\"Trolltunga\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.738,
+          60.124
+        ]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wulingyuan",
+        "country": "China",
+        "geological_type": "Karst Sandstone Formations",
+        "age": "Permian",
+        "rock_type": "Sandstone",
+        "description": "<h3>Wulingyuan</h3>\n    <p><strong>Country:</strong> China<br/>\n    <strong>Geological Type:</strong> Karst Sandstone Formations<br/>\n    <strong>Age:</strong> Permian<br/>\n    <strong>Rock Type:</strong> Sandstone</p>\n    <p><strong>Best Time to Visit:</strong> April to October<br/>\n    <strong>Accessibility:</strong> Easy (shuttle bus & cable cars)<br/>\n    <strong>Activities:</strong> Sightseeing, Photography, Hiking</p><br><img src=\"/assets/wulingyuan.jpg\" alt=\"Wulingyuan\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.488,
+          29.345
+        ]
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ha Long Bay",
+        "country": "Vietnam",
+        "geological_type": "Karst Limestone Formations",
+        "age": "Carboniferous–Permian",
+        "rock_type": "Limestone",
+        "description": "<h3>Ha Long Bay</h3>\n    <p><strong>Country:</strong> Vietnam<br/>\n    <strong>Geological Type:</strong> Karst Limestone Formations<br/>\n    <strong>Age:</strong> Carboniferous–Permian<br/>\n    <strong>Rock Type:</strong> Limestone</p>\n    <p><strong>Best Time to Visit:</strong> October to April<br/>\n    <strong>Accessibility:</strong> Easy (boat access)<br/>\n    <strong>Activities:</strong> Cruises, Kayaking, Photography</p><br><img src=\"/assets/ha_long_bay.jpg\" alt=\"Ha Long Bay\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0581,
+          20.9101
+        ]
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cueva de los Cristales",
+        "country": "Mexico",
+        "geological_type": "Hydrothermal Cave",
+        "age": "Pleistocene",
+        "rock_type": "Gypsum",
+        "description": "<h3>Cueva de los Cristales</h3>\n    <p><strong>Country:</strong> Mexico<br/>\n    <strong>Geological Type:</strong> Hydrothermal Cave<br/>\n    <strong>Age:</strong> Pleistocene<br/>\n    <strong>Rock Type:</strong> Gypsum</p>\n    <p><strong>Best Time to Visit:</strong> Not open to the public<br/>\n    <strong>Accessibility:</strong> Restricted<br/>\n    <strong>Activities:</strong> Scientific Research (limited)</p><br><img src=\"/assets/cueva_de_los_cristales.jpg\" alt=\"Cueva de los Cristales\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5116,
+          27.8517
+        ]
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meteora",
+        "country": "Greece",
+        "geological_type": "Conglomerate Rock Pillars",
+        "age": "Tertiary",
+        "rock_type": "Conglomerate",
+        "description": "<h3>Meteora</h3>\n    <p><strong>Country:</strong> Greece<br/>\n    <strong>Geological Type:</strong> Conglomerate Rock Pillars<br/>\n    <strong>Age:</strong> Tertiary<br/>\n    <strong>Rock Type:</strong> Conglomerate</p>\n    <p><strong>Best Time to Visit:</strong> March to October<br/>\n    <strong>Accessibility:</strong> Easy to Moderate<br/>\n    <strong>Activities:</strong> Sightseeing, Hiking, Monastery visits</p><br><img src=\"/assets/meteora.jpg\" alt=\"Meteora\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6311,
+          39.7211
+        ]
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Pinnacles",
+        "country": "Australia",
+        "geological_type": "Limestone Formations",
+        "age": "Pleistocene",
+        "rock_type": "Limestone",
+        "description": "<h3>The Pinnacles</h3>\n    <p><strong>Country:</strong> Australia<br/>\n    <strong>Geological Type:</strong> Limestone Formations<br/>\n    <strong>Age:</strong> Pleistocene<br/>\n    <strong>Rock Type:</strong> Limestone</p>\n    <p><strong>Best Time to Visit:</strong> April to October<br/>\n    <strong>Accessibility:</strong> Easy (drivable paths)<br/>\n    <strong>Activities:</strong> Hiking, Photography</p><br><img src=\"/assets/the_pinnacles.jpg\" alt=\"The Pinnacles\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.1619,
+          -30.601
+        ]
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Painted Hills",
+        "country": "USA",
+        "geological_type": "Layered Volcanic Sediments",
+        "age": "Cenozoic",
+        "rock_type": "Claystone, Shale",
+        "description": "<h3>Painted Hills</h3>\n    <p><strong>Country:</strong> USA<br/>\n    <strong>Geological Type:</strong> Layered Volcanic Sediments<br/>\n    <strong>Age:</strong> Cenozoic<br/>\n    <strong>Rock Type:</strong> Claystone, Shale</p>\n    <p><strong>Best Time to Visit:</strong> Spring and Fall<br/>\n    <strong>Accessibility:</strong> Easy<br/>\n    <strong>Activities:</strong> Hiking, Photography</p><br><img src=\"/assets/painted_hills.jpg\" alt=\"Painted Hills\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.2696,
+          44.6525
+        ]
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Devils Tower",
+        "country": "USA",
+        "geological_type": "Igneous Intrusion",
+        "age": "Eocene",
+        "rock_type": "Phonolite Porphyry",
+        "description": "<h3>Devils Tower</h3>\n    <p><strong>Country:</strong> USA<br/>\n    <strong>Geological Type:</strong> Igneous Intrusion<br/>\n    <strong>Age:</strong> Eocene<br/>\n    <strong>Rock Type:</strong> Phonolite Porphyry</p>\n    <p><strong>Best Time to Visit:</strong> May to October<br/>\n    <strong>Accessibility:</strong> Moderate<br/>\n    <strong>Activities:</strong> Hiking, Rock climbing</p><br><img src=\"/assets/devils_tower.jpg\" alt=\"Devils Tower\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7146,
+          44.5902
+        ]
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhangye Danxia",
+        "country": "China",
+        "geological_type": "Colorful Stratified Rocks",
+        "age": "Cretaceous",
+        "rock_type": "Sandstone",
+        "description": "<h3>Zhangye Danxia</h3>\n    <p><strong>Country:</strong> China<br/>\n    <strong>Geological Type:</strong> Colorful Stratified Rocks<br/>\n    <strong>Age:</strong> Cretaceous<br/>\n    <strong>Rock Type:</strong> Sandstone</p>\n    <p><strong>Best Time to Visit:</strong> June to September<br/>\n    <strong>Accessibility:</strong> Easy<br/>\n    <strong>Activities:</strong> Sightseeing, Photography</p><br><img src=\"/assets/zhangye_danxia.jpg\" alt=\"Zhangye Danxia\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.1333,
+          38.9747
+        ]
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Wave",
+        "country": "USA",
+        "geological_type": "Sandstone Formation",
+        "age": "Jurassic",
+        "rock_type": "Navajo Sandstone",
+        "description": "<h3>The Wave</h3>\n    <p><strong>Country:</strong> USA<br/>\n    <strong>Geological Type:</strong> Sandstone Formation<br/>\n    <strong>Age:</strong> Jurassic<br/>\n    <strong>Rock Type:</strong> Navajo Sandstone</p>\n    <p><strong>Best Time to Visit:</strong> March to November<br/>\n    <strong>Accessibility:</strong> Difficult (lottery permit required)<br/>\n    <strong>Activities:</strong> Hiking, Photography</p><br><img src=\"/assets/the_wave.jpg\" alt=\"The Wave\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0069,
+          36.9951
+        ]
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Erebus",
+        "country": "Antarctica",
+        "geological_type": "Active Volcano",
+        "age": "Neogene–Present",
+        "rock_type": "Basalt",
+        "description": "<h3>Mount Erebus</h3>\n    <p><strong>Country:</strong> Antarctica<br/>\n    <strong>Geological Type:</strong> Active Volcano<br/>\n    <strong>Age:</strong> Neogene–Present<br/>\n    <strong>Rock Type:</strong> Basalt</p>\n    <p><strong>Best Time to Visit:</strong> December to February<br/>\n    <strong>Accessibility:</strong> Difficult (research expeditions)<br/>\n    <strong>Activities:</strong> Scientific Exploration</p><br><img src=\"/assets/mount_erebus.jpg\" alt=\"Mount Erebus\" width=\"300\"/>",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.1694,
+          -77.53
+        ]
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barú Volcano",
+        "country": "Panama",
+        "geological_type": "Stratovolcano",
+        "age": "Pleistocene",
+        "rock_type": "Andesite",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<h3>Barú Volcano</h3><p><strong>Country:</strong> Panama<br/><strong>Geological Type:</strong> Stratovolcano<br/><strong>Age:</strong> Pleistocene<br/><strong>Rock Type:</strong> Andesite</p><p><strong>Best Time to Visit:</strong> Dry season (December to April)<br/><strong>Accessibility:</strong> Accessible by hiking trail or 4x4 vehicle<br/><strong>Activities:</strong> Hiking, wildlife observation, sunrise views</p><br><img src=\"/assets/barú_volcano.jpg\" alt=\"Barú Volcano\" width=\"300\"/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.543,
+          8.807
+        ]
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iguaçu Falls",
+        "country": "Brazil/Argentina",
+        "geological_type": "Waterfall",
+        "age": "Cenozoic",
+        "rock_type": "Basalt",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<h3>Iguaçu Falls</h3><p><strong>Country:</strong> Brazil/Argentina<br/><strong>Geological Type:</strong> Waterfall<br/><strong>Age:</strong> Cenozoic<br/><strong>Rock Type:</strong> Basalt</p><p><strong>Best Time to Visit:</strong> March to May<br/><strong>Accessibility:</strong> Accessible by national parks on both sides<br/><strong>Activities:</strong> Boat tours, sightseeing, hiking</p><br><img src=\"/assets/iguaçu_falls.jpg\" alt=\"Iguaçu Falls\" width=\"300\"/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.444,
+          -25.695
+        ]
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cerro de Pasco Mine",
+        "country": "Peru",
+        "geological_type": "Open-pit mine",
+        "age": "Tertiary",
+        "rock_type": "Lead-Zinc-Silver ore",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<h3>Cerro de Pasco Mine</h3><p><strong>Country:</strong> Peru<br/><strong>Geological Type:</strong> Open-pit mine<br/><strong>Age:</strong> Tertiary<br/><strong>Rock Type:</strong> Lead-Zinc-Silver ore</p><p><strong>Best Time to Visit:</strong> May to September<br/><strong>Accessibility:</strong> Accessible by road<br/><strong>Activities:</strong> Mining tours, geology research</p><br><img src=\"/assets/cerro_de_pasco_mine.jpg\" alt=\"Cerro de Pasco Mine\" width=\"300\"/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.24,
+          -10.683
+        ]
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tsingy de Bemaraha",
+        "country": "Madagascar",
+        "geological_type": "Karst limestone forest",
+        "age": "Jurassic",
+        "rock_type": "Limestone",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<h3>Tsingy de Bemaraha</h3><p><strong>Country:</strong> Madagascar<br/><strong>Geological Type:</strong> Karst limestone forest<br/><strong>Age:</strong> Jurassic<br/><strong>Rock Type:</strong> Limestone</p><p><strong>Best Time to Visit:</strong> April to November<br/><strong>Accessibility:</strong> Remote, requires guided tour<br/><strong>Activities:</strong> Hiking, caving, wildlife</p><br><img src=\"/assets/tsingy_de_bemaraha.jpg\" alt=\"Tsingy de Bemaraha\" width=\"300\"/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.783,
+          -18.665
+        ]
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Nyiragongo",
+        "country": "Democratic Republic of Congo",
+        "geological_type": "Volcano",
+        "age": "Recent (last erupted 2021)",
+        "rock_type": "Basalt",
+        "marker-color": "#FF5733",
+        "marker-symbol": "marker",
+        "description": "<h3>Mount Nyiragongo</h3><p><strong>Country:</strong> Democratic Republic of Congo<br/><strong>Geological Type:</strong> Volcano<br/><strong>Age:</strong> Recent (last erupted 2021)<br/><strong>Rock Type:</strong> Basalt</p><p><strong>Best Time to Visit:</strong> June to September<br/><strong>Accessibility:</strong> Trekking required from Virunga National Park<br/><strong>Activities:</strong> Volcano trekking, camping</p><br><img src=\"/assets/mount_nyiragongo.jpg\" alt=\"Mount Nyiragongo\" width=\"300\"/>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.25,
+          -1.52
+        ]
+      },
+      "id": 19
+    }
+  ]
+}
