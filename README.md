@@ -18,7 +18,7 @@ GeoExplorer 3D is a web-based interactive application built with **CesiumJS** an
 - GitHub Pages (deployment)
 
 ## 🌐 Live Demo
-> 🔗 [View Live App](https://Geofias.github.io/GeoExplorer-3D)
+> 🔗 [View Live App](https://celadon-quokka-15feef.netlify.app/)
 
 ## 📦 Deployment
 The app is deployed using **GitHub Pages**.
